@@ -1,0 +1,1 @@
+RunMultDasm("nuevo.dasm"); 

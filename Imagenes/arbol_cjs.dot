@@ -1,0 +1,13 @@
+digraph G {
+node[shape=Mrecord]
+5[label="inicio | la.djs",style=bold]
+4[label="cuerpo | ",style=bold]
+{5}->{4}
+3[label="importar_dasm | ",style=bold]
+{4}->{3}
+2[label="ValParams | ",style=bold]
+{3}->{2}
+1[label="STRING_LITERAL | nuevo.dasm",style=bold]
+{2}->{1}
+
+}
